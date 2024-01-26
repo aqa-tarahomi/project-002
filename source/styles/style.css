@@ -57,7 +57,7 @@ body{
     text-shadow: #000000 3px 3px 5px;
 }
 .main{
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     margin-left: 60px;
