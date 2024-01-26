@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+    background-color: #272727; 
+    color: ghostwhite;
+    background-image: url(../gallery/Silky_skin___Luvtolook___Virtual_Styling.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+}
+.card-subtitle u{
+    text-decoration:1.5px underline green;
+    text-underline-offset: 7px; 
+}
+.nav-link{
+    color: whitesmoke !important;
+    transition: all 0.5s;
+    font-size: 20px;
+    text-underline-offset: 7px;
+    margin-right: 13px;
+    margin-left: 0;
+}
+.nav-link:hover{
+    transition: all 0.5s;
+    text-decoration: 1.5px underline green; 
+}
+.active{
+    text-decoration: 2px underline rgb(7, 92, 7);
+}
+.nav-icons{
+    background-color: #414141;
+    height: 50px;
+    line-height: 50px;
+    margin: 5px;
+    transition: all 0.7s;
+    width: auto;
+    color: white;
+}
+.nav-icons:hover{
+    color: green;
+    background-color: #404040;
+    transition: all 0.7s;
+}
+.card-title{
+    font-size: 80px;
+    text-align: left;
+    text-shadow: #000000 3px 3px 5px;
+
+}
+.card-subtitle{
+    text-align: left;
+    text-shadow: #000000 3px 3px 5px;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+.offcanvas{
+    width: 100%;
+    background-color: #222222f1;
+}
