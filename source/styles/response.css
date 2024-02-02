@@ -56,6 +56,24 @@
         width: 100%;
     }
 }
+
+@media (max-width:992px) and (min-width:768px) {
+    .info-main{
+        width: 50%;
+    }
+    .card-image{
+        margin: 0 auto;
+    }
+    .card-body{
+        width: 70%;
+    }
+}
+@media (max-width:1260px) and (min-width:992px) {
+    .info-main{
+        width: 50%;
+    }
+}
+
 @media (max-width:600px) {
     body{
         background-size: 100% 100%;

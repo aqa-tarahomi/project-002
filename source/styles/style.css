@@ -28,6 +28,7 @@ body{
 .nav-link:hover{
     transition: all 0.5s;
     text-decoration: 1.5px underline green; 
+    transform: skewX(0.5) ;
 }
 .active{
     text-decoration: 2px underline rgb(7, 92, 7);
