@@ -1,13 +1,4 @@
 @media (max-width:768px) {
-    .card-title{
-        font-size: 63px;
-        text-align: center;
-    }
-    .card-subtitle{
-        font-size: 23px;
-        text-align: start;
-        margin-left: 15px;
-    }
     .icon-section{
         display: flex;
         justify-content: center;
@@ -29,19 +20,21 @@
     .card-bg{
         width: 100%;
     }
-    .container-fluid{
-        width: 100%;
-    }
     .card-main{
         margin: 0 auto;
     }
     .card-info{
         font-size: 30px;
         margin-top: 20px;
+        font-size: 33px !important;
+        text-align: center;
     }
     .card-info-subtitle{
         margin-top: 20px;
         margin-left: 20px;
+        font-size: 17px;
+        text-align: start;
+        margin-left: 15px;
     }
     .card-image{
         margin: 0 auto;
