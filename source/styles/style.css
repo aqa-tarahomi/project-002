@@ -86,3 +86,6 @@ body{
 .card-main{
     margin-left: 20px;
 }
+.card-info-subtitle{
+    font-size: 17px;
+}
