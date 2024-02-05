@@ -129,5 +129,6 @@ body {
 .vertical-line{
     width: 1px;
     background-color: rgba(190, 190, 190, 0.705);
-    height: auto;
+	height: 90% !important	;
+	background-color: rgba(0, 75, 39, 0.658);
 }
