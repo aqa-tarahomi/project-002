@@ -1,91 +1,133 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} 
-body{
-    background-color: #1f1f1f; 
-    color: ghostwhite;
-    background-image: url(../gallery/Silky_skin___Luvtolook___Virtual_Styling.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-x: right;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 100vh;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-.card-subtitle u{
-    text-decoration:1.5px underline green;
-    text-underline-offset: 7px; 
+
+body {
+	background-color: #1f1f1f;
+	color: ghostwhite;
+	background-image: url(../gallery/Silky_skin___Luvtolook___Virtual_Styling.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-x: right;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	height: 100vh;
 }
-.nav-link{
-    color: whitesmoke !important;
-    transition: all 0.5s;
-    font-size: 20px;
-    text-underline-offset: 7px;
-    margin-right: 13px;
-    margin-left: 0;
+
+.card-subtitle u {
+	text-decoration: 1.5px underline green;
+	text-underline-offset: 7px;
 }
-.nav-link:hover{
-    transition: all 0.5s;
-    text-decoration: 1.5px underline green; 
-    transform: skewX(0.5) ;
+
+.nav-link {
+	color: whitesmoke !important;
+	transition: all 0.5s;
+	font-size: 20px;
+	text-underline-offset: 7px;
+	margin-right: 13px;
+	margin-left: 0;
 }
-.active{
-    text-decoration: 2px underline rgb(7, 92, 7);
+
+.nav-link:hover {
+	transition: all 0.5s;
+	text-decoration: 1.5px underline green;
+	transform: skewX(0.5);
 }
-.nav-icons{
-    background-color: #414141;
-    height: 50px;
-    line-height: 50px;
-    margin: 5px;
-    transition: all 0.7s;
-    width: auto;
-    color: white;
+
+.active {
+	text-decoration: 2px underline rgb(7, 92, 7);
 }
-.nav-icons:hover{
-    color: green;
-    background-color: #404040;
-    transition: all 0.7s;
+
+.nav-icons {
+	background-color: #414141;
+	height: 50px;
+	line-height: 50px;
+	margin: 5px;
+	transition: all 0.7s;
+	width: auto;
+	color: white;
 }
-.introduction-title{
-    font-size: 80px;
-    text-align: left;
-    text-shadow: #000000 3px 3px 5px;
+
+.nav-icons:hover {
+	color: green;
+	background-color: #404040;
+	transition: all 0.7s;
 }
-.introduction-subtitle{
-    text-align: left;
-    text-shadow: #000000 3px 3px 5px;
+
+.introduction-title {
+	font-size: 80px;
+	text-align: left;
+	text-shadow: #000000 3px 3px 5px;
 }
-.main{
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    margin-left: 60px;
+
+.introduction-subtitle {
+	text-align: left;
+	text-shadow: #000000 3px 3px 5px;
 }
-.offcanvas{
-    width: 100%;
-    background-color: #222222f1;
+
+.main {
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	margin-left: 60px;
 }
-.nav-brand{
-    text-decoration: none;
-    font-size: 40px;
+
+.offcanvas {
+	width: 100%;
+	background-color: #222222f1;
 }
-.navbar-bg{
-    background-color: rgba(20, 20, 20, 0.904);
+
+.nav-brand {
+	text-decoration: none;
+	font-size: 40px;
 }
-.card-bg{
-    background-color: rgba(20, 20, 20, 0.95);
-    width: 97%;
+
+.navbar-bg {
+	background-color: rgba(20, 20, 20, 0.904);
 }
-.card-icon{
-    margin-top: 35px;
+
+.card-bg {
+	background-color: rgba(20, 20, 20, 0.95);
+	width: 97%;
 }
-.info-section-bg{
-    background-color: rgb(45, 45, 45);
+
+.card-icon {
+	margin-top: 35px;
 }
-.card-main{
-    margin-left: 20px;
+
+.info-section-bg {
+	background-color: rgb(45, 45, 45);
 }
-.card-info-subtitle{
-    font-size: 17px;
+
+.card-main {
+	margin-left: 20px;
+}
+
+.card-info-subtitle {
+	font-size: 17px;
+}
+
+.fa-java {
+	background: #5282a1;
+	background: linear-gradient(to top, #5282a1 50%, #CF730A 50%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.fa-python {
+	background: #E1E81E;
+	background: linear-gradient(to top left, #E1E81E 50%, #5282A1 49%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.horizontal-line {
+	width: 10%;
+}
+
+.vertical-line{
+    width: 1px;
+    background-color: rgba(190, 190, 190, 0.705);
+    height: auto;
 }

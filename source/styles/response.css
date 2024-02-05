@@ -23,9 +23,6 @@
     .card-main{
         margin: 0 auto;
     }
-    .card-icon{
-        margin-left: 20px;
-    }
     .info-main{
         width: 100%;
     }
@@ -44,6 +41,9 @@
     }
     .header{
         margin-left: 20px !important;
+    }
+    .horizontal-line{
+        width: 25% !important;
     }
 }
 
