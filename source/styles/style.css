@@ -122,6 +122,18 @@ body {
 	-webkit-text-fill-color: transparent;
 }
 
+.box-shadow{
+	box-shadow: -4px -4px 6px 1px rgba(84,84,84,0.68);
+	-webkit-box-shadow: -4px -4px 6px 1px rgba(84,84,84,0.68);
+	-moz-box-shadow: -4px -4px 6px 1px rgba(84,84,84,0.68);
+	margin: auto;
+	width: auto;
+	padding: 1rem 1.5rem;
+	background-color: #198754;
+	margin-top: 4rem;
+	transition: all 0.4s;
+}
+
 .horizontal-line {
 	width: 10%;
 }
@@ -131,4 +143,39 @@ body {
     background-color: rgba(190, 190, 190, 0.705);
 	height: 90% !important	;
 	background-color: rgba(0, 75, 39, 0.658);
+}
+
+.services-main{
+	width: 32% !important;
+	transition: all 0.4s;
+}
+.services-main:hover{
+	background-color: #198754;
+	color: ghostwhite !important;
+	transition: all 0.4s;
+	.box-shadow{
+		background-color: ghostwhite !important;
+		color: #198754;
+		transition: all 0.4s;
+	}
+}
+
+.address-icon{
+	color: ghostwhite;
+	margin-left: 10px;
+	font-size: 21px;
+	transition: all 0.4s;
+}
+.address-icon:hover{
+	color: #198754;
+	transition: all 0.4s;
+
+}
+
+.form-control{
+	background-color: rgb(29, 29, 29);
+}
+
+.form-control::placeholder{
+	color: #198754a4;
 }
