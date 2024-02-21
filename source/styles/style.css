@@ -180,7 +180,7 @@ body {
 }
 
 .form-control::placeholder {
-	color: #198754a4;
+	color: rgb(199, 199, 199);
 }
 
 .product-img {
@@ -223,4 +223,8 @@ body {
 .product-btn:hover {
 	background-color: #198754;
 	transition: all 0.4s;
+}
+.nav-btn{
+	background-color: rgb(45, 45, 45);
+	border: none;
 }
