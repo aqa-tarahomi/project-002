@@ -6,7 +6,7 @@
 
 @font-face {
 	font-family: source-sans-pro;
-	src: url(../fonts/SourceSansPro-Regular.otf) format(.otf)
+	src: url(../fonts/SourceSansPro-Regular.otf) format(".otf")
 }
 
 body {
