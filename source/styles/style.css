@@ -16,6 +16,7 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position-x: right;
+	background-size: cover;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	height: 100vh;
 	font-family: source-sans-pro
